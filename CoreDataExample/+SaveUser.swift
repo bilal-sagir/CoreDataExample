@@ -7,7 +7,7 @@ extension ViewController
         
         curUser = User(context: context)
         
-        curUser.setValue("Adam", forKey: "name")
+        curUser.setValue("John", forKey: "name")
         
         let userAvatar = Image (context: context)
         userAvatar.name = "myImg.jpeg"
