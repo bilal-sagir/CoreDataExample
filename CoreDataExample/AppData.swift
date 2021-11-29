@@ -2,7 +2,9 @@ import Foundation
 import CoreData
 
 
-class AppData{
+class AppData
+{
+    
     private init (){ }
     static let shared = AppData()
     
@@ -14,5 +16,15 @@ class AppData{
         return c
     }()
 
+    func saveContext(){
+        let context = container.viewContext
+        
+        if context.hasChanges{
+            do{
+                try context.save()
+            }
+            catch{ }
+        }
+    }
     
 }

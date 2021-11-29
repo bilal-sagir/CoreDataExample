@@ -1,19 +1,23 @@
-//
-//  ViewController.swift
-//  CoreDataExample
-//
-//  Created by Bilal on 28.11.2021.
-//
-
 import UIKit
+import CoreData
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    var context: NSManagedObjectContext!
+    
+    var curUser: User!
+    var comments: [Comment] = []
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        context = AppData.shared.container.viewContext
+        
     }
-
-
 }
+
+
+
+
 
