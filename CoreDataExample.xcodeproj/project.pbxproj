@@ -21,6 +21,7 @@
 		9C5F9E8E2754570500595CB4 /* +GetComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F9E8D2754570500595CB4 /* +GetComments.swift */; };
 		9C5F9E902754571C00595CB4 /* +FetchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F9E8F2754571C00595CB4 /* +FetchUser.swift */; };
 		9C5F9E922754573500595CB4 /* +SaveUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F9E912754573500595CB4 /* +SaveUser.swift */; };
+		9C5F9E94275458CB00595CB4 /* myImg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F9E93275458CB00595CB4 /* myImg.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9C5F9E8D2754570500595CB4 /* +GetComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+GetComments.swift"; sourceTree = "<group>"; };
 		9C5F9E8F2754571C00595CB4 /* +FetchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+FetchUser.swift"; sourceTree = "<group>"; };
 		9C5F9E912754573500595CB4 /* +SaveUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+SaveUser.swift"; sourceTree = "<group>"; };
+		9C5F9E93275458CB00595CB4 /* myImg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myImg.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		9C5F9E6D2753DDD200595CB4 /* CoreDataExample */ = {
 			isa = PBXGroup;
 			children = (
+				9C5F9E93275458CB00595CB4 /* myImg.jpeg */,
 				9C5F9E6E2753DDD200595CB4 /* AppDelegate.swift */,
 				9C5F9E702753DDD200595CB4 /* SceneDelegate.swift */,
 				9C5F9E722753DDD200595CB4 /* ViewController.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5F9E7E2753DDD300595CB4 /* LaunchScreen.storyboard in Resources */,
+				9C5F9E94275458CB00595CB4 /* myImg.jpeg in Resources */,
 				9C5F9E7B2753DDD300595CB4 /* Assets.xcassets in Resources */,
 				9C5F9E762753DDD200595CB4 /* Main.storyboard in Resources */,
 			);
